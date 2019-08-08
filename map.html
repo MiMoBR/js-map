@@ -1,0 +1,32 @@
+/*	START HERE	*/
+let numbers = [1,2,3]
+
+
+		/*	+ 1	*/
+let conj1 = value => value+1
+
+let newNumbers1 = numbers.map(conj1)
+
+newNumbers1
+(3) [2, 3, 4]
+
+
+		/*	+ 4	*/
+let conj4 = value => value+4
+
+let newNumbers4 = numbers.map(conj4)
+
+newNumbers4
+(3) [5, 6, 7]
+
+		
+		/*	count caracters	*/
+let materials = [
+  'Hydrogen',
+  'Helium',
+  'Lithium',
+  'Beryllium'
+];
+
+console.log(materials.map(material => material.length))
+(4) [8, 6, 7, 9]
